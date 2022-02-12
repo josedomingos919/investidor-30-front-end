@@ -6,4 +6,5 @@ export const colors = {
   discreetIcon: "#D6D9E0",
   discreetTitle: "#BCC4C9",
   normalText: "#4B6172",
+  white: "#ffff",
 };

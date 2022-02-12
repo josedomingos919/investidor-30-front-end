@@ -1,3 +1,9 @@
+import { BodyTopContainer } from "./styles";
+
 export const Login = () => {
-  return <></>;
+  return (
+    <>
+      <BodyTopContainer>Hello</BodyTopContainer>
+    </>
+  );
 };
