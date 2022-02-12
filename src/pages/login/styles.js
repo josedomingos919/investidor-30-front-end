@@ -42,4 +42,14 @@ export const Paragraph = styled.label`
   text-align: justify;
 `;
 
+export const FormContainer = styled.div`
+  width: 100%;
+`;
+
 export const Image = styled.img``;
+
+export const ContainerInputField = styled.div`
+  margin-bottom: ${({ marginBottom }) =>
+    marginBottom ? `${marginBottom}px` : "initial"};
+  width: 100%;
+`;

@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
 
  *{
+   border: none;
     padding: 0px;
     margin: 0px;
     outline: none;

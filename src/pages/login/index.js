@@ -1,3 +1,4 @@
+import { InputControl } from "../../components";
 import {
   Image,
   ContainerLogo,
@@ -5,6 +6,8 @@ import {
   ContainerFirstInfo,
   LoginTitle,
   Paragraph,
+  FormContainer,
+  ContainerInputField,
 } from "./styles";
 
 import { images } from "./util";
@@ -24,6 +27,20 @@ export const Login = () => {
             conta, solicite o seu agente!
           </Paragraph>
         </ContainerFirstInfo>
+
+        <FormContainer>
+          <ContainerInputField marginBottom={20}>
+            <InputControl icon={images.User} placeholder="Nome de usuário" />
+          </ContainerInputField>
+
+          <ContainerInputField marginBottom={20}>
+            <InputControl
+              icon={images.Password}
+              placeholder="Senha"
+              type="password"
+            />
+          </ContainerInputField>
+        </FormContainer>
       </BodyTopContainer>
     </>
   );
