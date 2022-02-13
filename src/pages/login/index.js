@@ -1,4 +1,4 @@
-import { InputControl } from "../../components";
+import { InputControl, ButtonControl } from "../../components";
 import {
   Image,
   ContainerLogo,
@@ -8,6 +8,12 @@ import {
   Paragraph,
   FormContainer,
   ContainerInputField,
+  FooterContainer,
+  ForgetPassword,
+  SocialsContainer,
+  SocialLink,
+  SocialImage,
+  CopyRightMenu,
 } from "./styles";
 
 import { images } from "./util";
@@ -40,8 +46,32 @@ export const Login = () => {
               type="password"
             />
           </ContainerInputField>
+
+          <ContainerInputField textAlign="right">
+            <ForgetPassword href="teste/">Esqueci a senha!</ForgetPassword>
+          </ContainerInputField>
         </FormContainer>
       </BodyTopContainer>
+
+      <FooterContainer>
+        <ContainerInputField marginTop={25} marginBottom={20}>
+          <ButtonControl label="Entrar" icon={images.Enter} />
+        </ContainerInputField>
+
+        <SocialsContainer>
+          <SocialLink>
+            <SocialImage src={images.Facebook} />
+          </SocialLink>
+          <SocialLink>
+            <SocialImage src={images.Google} />
+          </SocialLink>
+          <SocialLink>
+            <SocialImage src={images.Linkedin} />
+          </SocialLink>
+        </SocialsContainer>
+
+        <CopyRightMenu>copy@right{new Date().getFullYear()}</CopyRightMenu>
+      </FooterContainer>
     </>
   );
 };
