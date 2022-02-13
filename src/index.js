@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { GlobalStyle } from "./style/globas";
+import { AppContainer, GlobalStyle } from "./style/globas";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppContainer>
+      <App />
+    </AppContainer>
     <GlobalStyle />
   </React.StrictMode>,
   document.getElementById("root")

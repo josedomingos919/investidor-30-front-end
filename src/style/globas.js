@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import { colors } from "../util/colors";
 
 export const GlobalStyle = createGlobalStyle`
@@ -18,6 +18,13 @@ export const GlobalStyle = createGlobalStyle`
  }
 
  body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
    background-color: ${colors.background};
  }
+`;
+
+export const AppContainer = styled.div`
+  max-width: 375px;
 `;
