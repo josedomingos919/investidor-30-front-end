@@ -57,7 +57,7 @@ export const LabelLevel = styled.label`
 export const ContainerCardOptions = styled.div`
   height: 128px;
   margin-top: -64px;
-  padding: 20px 20px;
+  padding: 20px 15px;
   display: flex;
   flex-direction: row;
   overflow-x: auto;
@@ -80,7 +80,7 @@ export const CardOptions = styled.div`
   padding: 12px;
   background-color: ${colors.white};
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 15px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
