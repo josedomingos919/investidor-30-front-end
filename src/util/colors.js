@@ -7,4 +7,7 @@ export const colors = {
   discreetTitle: "#BCC4C9",
   normalText: "#4B6172",
   white: "#ffff",
+  cardTitle: "#686D70",
+  lightPrimary: "#cbc4f3",
+  opacityPrimary: "#cbc4f32b",
 };

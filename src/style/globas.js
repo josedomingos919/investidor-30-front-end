@@ -3,7 +3,7 @@ import { colors } from "../util/colors";
 
 export const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
 
  *{
     user-select: none;
@@ -23,8 +23,14 @@ export const GlobalStyle = createGlobalStyle`
    justify-content: center;
    background-color: ${colors.background};
  }
+ 
+  body > div {
+    max-width: 375px !important;
+    width: 100% !important;
+  } 
 `;
 
 export const AppContainer = styled.div`
-  max-width: 375px;
+  max-width: 375px !important;
+  width: 100% !important;
 `;
