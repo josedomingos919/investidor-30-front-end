@@ -13,6 +13,10 @@ import {
   CardOptionsLabelContainer,
   CardOptionsLabel,
   CardOptionsIcon,
+  HeaderTitle,
+  HomeTitle,
+  HomeSubtitle,
+  HomeSubtitleImage,
 } from "./style";
 import { images } from "./util";
 
@@ -61,6 +65,14 @@ export const Home = () => {
           </CardOptionsLabelContainer>
         </CardOptions>
       </ContainerCardOptions>
+
+      <HeaderTitle>
+        <HomeTitle>REMEÇAS</HomeTitle>
+        <HomeSubtitle>
+          <HomeSubtitleImage src={images.Box} />
+          Visão geral da sua remeça
+        </HomeSubtitle>
+      </HeaderTitle>
     </MainContainer>
   );
 };

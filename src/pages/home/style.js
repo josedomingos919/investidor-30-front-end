@@ -104,3 +104,28 @@ export const CardOptionsLabel = styled.label`
   color: ${colors.cardTitle};
   text-transform: uppercase;
 `;
+
+export const HeaderTitle = styled.div`
+  padding: 15px 15px;
+`;
+
+export const HomeTitle = styled.div`
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: ${colors.cardTitle};
+  margin-bottom: 8px;
+`;
+
+export const HomeSubtitle = styled.div`
+  color: ${colors.dark};
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+`;
+
+export const HomeSubtitleImage = styled.img`
+  margin-top: -3px;
+  margin-right: 5px;
+`;

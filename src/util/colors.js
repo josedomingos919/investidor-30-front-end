@@ -10,4 +10,5 @@ export const colors = {
   cardTitle: "#686D70",
   lightPrimary: "#cbc4f3",
   opacityPrimary: "#cbc4f32b",
+  dark: "#8D989C",
 };
